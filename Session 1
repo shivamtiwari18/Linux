@@ -1,0 +1,23 @@
+The use of Operating System is to run the program.
+There are ways we can use the OS : GUI and CLI.
+The command is same as program.
+' which <firefox> ' will give the detail regarding the location of the <firefox>.
+gedit is same as notepad in windows.
+date and cal for current date-time and calender of month respectively.
+' watch -n 1 date ' shows the date continously for each second change.
+Want to speak out the date - ' date | espeak-ng '
+
+-------------------------------------------------------------------------------------------
+ADDTIONAL REFERENCES
+-------------------------------------------------------------------------------------------
+Techniques for hacking:
+1. If the person is able to read the data from the RAM.
+2. If the person is able to read the cookies from the browser.
+
+From root to user 
+su - usrname
+
+
+Problems:
+espeak-ng not working 
+Showing refused to connect. - Restarted the OS then worked
