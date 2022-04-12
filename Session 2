@@ -1,0 +1,42 @@
+I am user of the programming function
+
+------------------------------------------------
+Installing OS prerequistiive:
+1. RAM
+2. CPU
+3. Hardisk
+
+4 PLATFORMS
+1. Bare-Metal : Installing on Hardware
+2. Virtualization : Install OS on top of other OS (Handy and Simple)
+3. Dual-Booting : Single HArdware 2 OS
+4. Cloud Computing : virtualization / Container (Docker)
+
+Virtualization:
+Install 1 program on top of other - HyperV, Zen, Virtual Box
+
+Installing
+Bios - Enable Virtualization
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------
+TASK
+--------------------------------------
+date keen running even after. -> bash livedate
