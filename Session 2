@@ -17,20 +17,31 @@ Install 1 program on top of other - HyperV, Zen, Virtual Box
 
 Installing
 Bios - Enable Virtualization
+Virtual Hardware - Created as per requirement - RAM, CPU, Hardware
+To install OS - bootable DVD or OS Image (ISO File)
 
+Root is admin of the OS.
 
+Command Prompt - prompting the command to perform.
+sleep n - hold commmand for n seconds
 
+Closing the program with different commands and usage of each
+----------------------------------------------------------------
+Close the graphical program - Cltr(left)+C
+Ctrl+C - Terminate the program/command
+Ctrl+Z - Donot terminate + Pause + Put in the background
+firefox & - Startes the program and put the program in the background
 
+jobs - The commands in the background
+fg 1 - Bring the program with id 1 in the foreground
 
+i/p : echo "date" 
+o/p : date
 
+i/p : "`date`"
+o/p : print the date
 
-
-
-
-
-
-
-
+echo -n "hello" : no new line
 
 
 
