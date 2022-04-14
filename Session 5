@@ -8,10 +8,15 @@ Verify whether id created/not => id <user_name>
 Screen => Console of the OS
 In windows we have 1 console/terminal/Virtual Terminal.
 In RedHat 8 we have 6 consoles by default => 2 GUI and 4 CLI.
-Switch to Screen n Ctrl+Alt+Fn
+Switch to Screen n : 
+1. Ctrl+Alt+Fn 
+2. chvt <terminal_number>
+
+To check the terminal number where we are present => tty
 
 f3,f4,f5,f6 => CLI by default
-startx => CLI into GUI
+startx => GUI into CLI
+startu => CLI into GUI
 
 ----------------------------------------------------------------------
 can and how to enable mouse interaction in CLI?
