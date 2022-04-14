@@ -42,12 +42,27 @@ i/p : "`date`"
 o/p : print the date
 
 echo -n "hello" : no new line
+To type out escape sequence - echo -e "hello\thi"
+\b => backspace : Removes the previous letter
+Limitations: We cannot use \b when the word goes to next line so use -n also
+Eg: echo -n -e "hello\b"
 
+To get the command helper:
+man date: Gives the manual of the command.
 
-
+To get the file: getid
+Scripting File: We write all the commands in that file and we run as per our convinience.
 
 
 --------------------------------------
 TASK
 --------------------------------------
 date keen running even after. -> bash livedate
+
+Which of the follwing is list of ip address:
+192.168.0.1
+192.168.12345
+192.12389
+
+All of the above are right.
+1234567
