@@ -19,11 +19,24 @@ startx => GUI into CLI
 startu => CLI into GUI
 exit/logout => To logout of the user account
 
+SHELL
 Shell => Takes in the command and returns the results.
 Shell will go to the location of the file and then run the command
-
 Shells : bash, csh, pksh, fish
+To access shell we need to authenticate using login.
+Working behind the CLI
+USER by defaut variable which contains the user name.
+SHEll by default contains the name of shell.
 
+GNome is working behind GUI.
+
+WebUI and MobileUI also to work with OS/Program.
+
+tput => putting in terminal
+Change the color there are 0-7 : tput setaf 3 
+setbf => background color
+
+reset the settings
 
 
 ----------------------------------------------------------------------
