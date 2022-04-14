@@ -68,5 +68,13 @@ Which of the follwing is list of ip address:
 Ans : All of the above are right.
 
 Valid IP:
-____.____.____.____ and each range in 0-255
+____.____.____.____ and each range in 0-255 -> Only a convention
+In the memory the IP Adress is not stored in the form of dot but without dots So last one is also correct.
+The computer stores in bit and as a complete number.
+Formula: bc : Binary Calculator
+
+Proof: Ip of Google : 172.217.167.196
+Binary to Number -> 172*2^4 + 217*2^16 + 167*2^8 + 196*2^0 => 2899945412 will also show google.
+If 'Firewall' has also blocked the IP then also we will be able to reach there.
+Only work for Black Proxy but not for White Proxy (Because it blocks all).
 
