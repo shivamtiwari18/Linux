@@ -63,6 +63,10 @@ Which of the follwing is list of ip address:
 192.168.0.1
 192.168.12345
 192.12389
-
-All of the above are right.
 1234567
+
+Ans : All of the above are right.
+
+Valid IP:
+____.____.____.____ and each range in 0-255
+
