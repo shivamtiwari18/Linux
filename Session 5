@@ -1,0 +1,8 @@
+MultiUser OS:
+various logins/accounts 
+Command => useradd <user_name>
+passwd <user_name> => give the password
+
+Verify whether id created/not => id <user_name>
+
+In mu
