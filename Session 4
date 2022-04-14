@@ -1,0 +1,45 @@
+To launch new terminal : gnome-terminal
+Program File/Module : File which contains code and stored in the hardisk.
+
+Storage : Where you store the files permanently 
+Eg: Floppy, Pendrive, Harddisk, RAM
+
+Code is run in RAM.
+Store the code in a storage is PROGRAM/COMMANDS.
+When load in RAM and exceute a program then called PROCESS .
+ps -aux : Like Task Manager in Windows : Full list of programs.
+searching in log : ps -aux | grep firefox
+kill the process : kill <process_id>
+
+To create a file : 
+1. gedit h1.txt
+2. cat > file.txt
+3. touch ki.txt
+
+To see the data : cat file.txt
+To perform a task in OS we use program/command only.
+
+Hardware does all the work.
+OS knows how to talk to the hardware.
+User -> OS -> Hardware
+Language in which User and OS understand is Programming Language / Software.
+Installing the language on the top of the OS.
+
+USE - CASE of Any Programming language is : Interact with OS.
+Java supports Live Interpretor.
+
+Python Prompt and REPL are the same thing. 
+Symbol that comes : '>>>'
+R -> Read
+E -> Evaluate
+P -> Print
+L -> Loop
+
+system() -> we can run the linux command
+import os for loading the OS.
+
+---------------------------------------------------------------------
+TASK
+---------------------------------------------------------------------
+Create a file wihout any command/program
+1. > Redirect symbol
