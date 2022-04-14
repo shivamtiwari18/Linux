@@ -1,0 +1,8 @@
+The signal to send from 1 to another ie sender to reciever.
+Multiple people can use same mobile number: Mobile no. Scoofing
+Disadvantages: COnflicts
+
+IP not given to OS but the network card.
+ifconfig : Check the interfaces/netwrok cards present.
+ping : like ring or Test the connectivity
+
