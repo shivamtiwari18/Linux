@@ -5,4 +5,9 @@ passwd <user_name> => give the password
 
 Verify whether id created/not => id <user_name>
 
-In mu
+Screen => Console of the OS
+In windows we have 1 console/terminal/Virtual Terminal
+In RedHat we have 6 consoles.
+Switch to Screen n Ctrl+Alt+Fn
+
+if we are switching to a terminal which is not created then it by default opens in CLI.
