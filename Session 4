@@ -14,6 +14,8 @@ kill the process : kill <process_id>
 To create a file : 
 1. gedit h1.txt
 2. cat > file.txt
+     Will delete the previous file and create new file.
+     cat >> file.txt : Append the data
 3. touch ki.txt
 
 To see the data : cat file.txt
