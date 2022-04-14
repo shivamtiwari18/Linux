@@ -17,8 +17,17 @@ To check the terminal number where we are present => tty
 f3,f4,f5,f6 => CLI by default
 startx => GUI into CLI
 startu => CLI into GUI
+exit/logout => To logout of the user account
+
+Shell => Takes in the command and returns the results.
+Shell will go to the location of the file and then run the command
+
+Shells : bash, csh, pksh, fish
+
+
 
 ----------------------------------------------------------------------
+TASKS
+----------------------------------------------------------------------
 can and how to enable mouse interaction in CLI?
-
-
+How can we create more than 6 Virtual Terminal?
