@@ -5,5 +5,8 @@ Disadvantages: COnflicts
 IP not given to OS but the network card.
 ifconfig : Check the interfaces/netwrok cards present.
 ping : like ring or Test the connectivity
+getmac: to get the MAC ADRESS of the PC
+ipconfig /all: aslo same 2 same
+nslookup : 
 
 Rest About Ip was discussed and present in Session 2
