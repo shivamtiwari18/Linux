@@ -16,6 +16,8 @@ Techniques for hacking:
 
 From root to user 
 su - usrname
+OR
+su -
 
 
 Problems:
