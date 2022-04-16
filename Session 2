@@ -13,7 +13,7 @@ Installing OS prerequistiive:
 4. Cloud Computing : virtualization / Container (Docker)
 
 Virtualization:
-Install 1 program on top of other - HyperV, Zen, Virtual Box
+Install 1 program on top of other - HyperV (Microsoft)  , Zen, Virtual Box
 
 Installing
 Bios - Enable Virtualization
@@ -28,11 +28,15 @@ sleep n - hold commmand for n seconds
 Closing the program with different commands and usage of each
 ----------------------------------------------------------------
 Close the graphical program - Cltr(left)+C
-Ctrl+C - Terminate the program/command
-Ctrl+Z - Donot terminate + Pause + Put in the background
+Ctrl+C (Sigterm) - Terminate the program/command
+Ctrl+Z (SigKill) - Donot terminate + Pause + Put in the background
+
 firefox & - Startes the program and put the program in the background
 
 jobs - The commands in the background
+
+************microservices/cron-tab - schedule tasks
+
 fg 1 - Bring the program with id 1 in the foreground
 
 i/p : echo "date" 
@@ -59,7 +63,7 @@ TASK
 --------------------------------------
 date keen running even after. -> bash livedate
 
-Which of the follwing is list of ip address:
+Which of the following is list of ip address:
 192.168.0.1
 192.168.12345
 192.12389
