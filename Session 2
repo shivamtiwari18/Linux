@@ -82,3 +82,27 @@ Binary to Number -> 172*2^4 + 217*2^16 + 167*2^8 + 196*2^0 => 2899945412 will al
 If 'Firewall' has also blocked the IP then also we will be able to reach there.
 Only work for Black Proxy but not for White Proxy (Because it blocks all).
 
+
+ANSWER ) 
+
+Yes, it is a valid IP address. Restricting ourselves to version 4 of the Internet Protocol (or IP), an IP address is "a 32-bit unsigned integer". 
+Since 123456 expressed in binary is 11110001001000000, is quite evidently qualified to be an IP address. In the required 32-bit format, it would be:
+
+00000000000000011110001001000000
+
+Or, grouping these into 8 bits in a block:
+
+00000000 00000001 11100010 01000000
+
+Converting to decimal, we have these groups as:
+
+0 1 226 64
+
+That is, 123456 is the IP address 0.1.226.64.
+
+Is this address usable? IANA has this to say:
+
+"Addresses starting with "0." are sometimes used for broadcasts to directly connected devices. If you see addresses starting with a "0." 
+in logs they are probably in use on your network, which might be as small as a computer connected to a home gateway."
+
+In essence, security-conscious ISPs might block this IP address, but there's nothing stopping you from using it in a network that you control.
