@@ -1,0 +1,6 @@
+Inode : Pointer or a number of a file in the hard disk.
+Soft link : Link will be removed if file will be removed or renamed.
+Hard link : Deleting or renaming the original file will not affect the hard link 
+
+cmd to create a soft link : ln -s
+cmd to create a Hard link : ln 
