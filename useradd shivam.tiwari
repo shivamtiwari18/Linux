@@ -1,0 +1,7 @@
+useradd shivam.tiwari
+mkdir /home/shivam.tiwari/.ssh
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDeE/tE9AeZT4PZSOL3p5sf7OAlSqW25ifbGng6f90thJUNIQvAOh8aLmNcHN3XD4BxblgJRzv6iytG22tGy9oPM5F7edcbSjzbgnCEdjJT5WfsG9rVV8DlXjFEqtAVxy7PmH6YVBW1h5p3TJkNGxAwV9tUYCmI/Uu8IuYPW1ptofwslt7z9XcGvhxFlBf2rrGsu2NUzRxuhhcRzNG6s7suwdxnYQXoDFShQDyH6eAp0S+lzNYqP9ersvN3CNp2bdqa+EsUKMJOiJO/pZIROiNl7nSGv4UPlZ+d58m4eGiZndlg2lNGa/t068L7cxK754p/HcyhV4nUn3adGc/ybAqT shivam@192.168.1.201" > /home/shivam.tiwari/.ssh/authorized_keys
+chown shivam.tiwari:shivam.tiwari  -R /home/shivam.tiwari/.ssh
+chmod 700 -R /home/shivam.tiwari/.ssh
+usermod -a -G admins shivam.tiwari
+echo "shivam.tiwari created"
